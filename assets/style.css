@@ -131,3 +131,17 @@ a:hover {
 }
 
 /* info */
+
+.info-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.info-text p {
+  font-size: 20px;
+  width: 70%;
+  color: var(--text-gray);
+  text-align: center;
+}
