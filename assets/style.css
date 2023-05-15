@@ -457,8 +457,6 @@ p {
 
   #info {
     gap: 30px 0;
-  }
-  .info p {
     display: flex;
     justify-content: center;
   }
