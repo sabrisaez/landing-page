@@ -148,7 +148,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 .info-text p {
@@ -161,7 +161,7 @@ main {
 /* info cards*/
 
 #info {
-  padding: 70px 0;
+  padding: 50px 0;
   max-width: 1200px;
   display: flex;
   justify-content: center;
@@ -291,7 +291,7 @@ p {
   justify-content: left;
   align-items: center;
   gap: 30px;
-  padding: 20px 0 0 0;
+  padding-bottom: 20px;
 }
 
 .div-logo {
@@ -301,9 +301,10 @@ p {
   align-items: center;
   gap: 10px;
   padding: 12px 0;
-  background: var(--background);
+  background: var(--primary);
 }
-.logo-bottom {
-  width: 80px;
-  height: 35px;
+
+.div-logo h6 {
+  font-size: 12px;
+  color: var(--text-white);
 }
