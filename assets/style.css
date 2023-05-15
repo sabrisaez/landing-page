@@ -397,10 +397,8 @@ p {
     flex-direction: row-reverse;
   }
 
-  .navbar i {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  .navbar img {
+    display: none;
   }
 
   #toggle-menu:checked ~ .navbar-list {
