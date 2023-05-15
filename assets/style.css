@@ -212,3 +212,98 @@ main {
   font-weight: 300;
   color: var(--text-gray);
 }
+
+/* footer */
+
+footer {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--text-gray);
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.contact-inside {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  font-weight: 1000;
+}
+
+.contact-inside h4 {
+  font-size: 18px;
+}
+
+.contact-inside li {
+  font-size: 17px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.footer-2 {
+  width: 20%;
+}
+
+.logo-redes img {
+  width: 30px;
+}
+
+.logo-redes a:hover {
+  transform: scale(1.5);
+
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.logo-redes {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0 0 0;
+}
+
+.div-logo {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  background: var(--background);
+}
+.logo-bottom {
+  width: 80px;
+  height: 35px;
+}
